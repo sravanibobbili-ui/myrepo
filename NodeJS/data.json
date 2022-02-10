@@ -1,1 +1,101 @@
-[{"slno":1,"name":"N1","no_of_blades":10,"ccm_status":"up","eac_status":"down","eas_switches":6,"nru_switches":6},{"slno":2,"name":"N2","no_of_blades":4,"ccm_status":"up","eac_status":"up","eas_switches":2,"nru_switches":2},{"slno":3,"name":"N3","no_of_blades":5,"ccm_status":"down","eac_status":"up","eas_switches":4,"nru_switches":4},{"slno":4,"name":"N4","no_of_blades":5,"ccm_status":"up","eac_status":"up","eas_switches":4,"nru_switches":4},{"slno":5,"name":"N5","no_of_blades":10,"ccm_status":"up","eac_status":"up","eas_switches":5,"nru_switches":5},{"slno":6,"name":"N6","no_of_blades":6,"ccm_status":"down","eac_status":"down","eas_switches":2,"nru_switches":2},{"slno":7,"name":"N7","no_of_blades":11,"ccm_status":"up","eac_status":"up","eas_switches":8,"nru_switches":8},{"slno":8,"name":"N8","no_of_blades":11,"ccm_status":"down","eac_status":"up","eas_switches":7,"nru_switches":7},{"slno":9,"name":"N9","no_of_blades":4,"ccm_status":"up","eac_status":"down","eas_switches":2,"nru_switches":2},{"slno":10,"name":"N10","no_of_blades":5,"ccm_status":"down","eac_status":"up","eas_switches":4,"nru_switches":4},{"slno":11,"name":"N11","no_of_blades":10,"ccm_status":"up","eac_status":"up","eas_switches":4,"nru_switches":4}]
+[
+  {
+    "slno": 1,
+    "name": "N1",
+    "no_of_blades": 10,
+    "ccm_status": "up",
+    "eac_status": "down",
+    "eas_switches": 6,
+    "nru_switches": 6
+  },
+  {
+    "slno": 2,
+    "name": "N2",
+    "no_of_blades": 4,
+    "ccm_status": "up",
+    "eac_status": "up",
+    "eas_switches": 2,
+    "nru_switches": 2
+  },
+  {
+    "slno": 3,
+    "name": "N3",
+    "no_of_blades": 5,
+    "ccm_status": "down",
+    "eac_status": "up",
+    "eas_switches": 4,
+    "nru_switches": 4
+  },
+  {
+    "slno": 4,
+    "name": "N4",
+    "no_of_blades": 5,
+    "ccm_status": "up",
+    "eac_status": "up",
+    "eas_switches": 4,
+    "nru_switches": 4
+  },
+  {
+    "slno": 5,
+    "name": "N5",
+    "no_of_blades": 10,
+    "ccm_status": "up",
+    "eac_status": "up",
+    "eas_switches": 5,
+    "nru_switches": 5
+  },
+  {
+    "slno": 6,
+    "name": "N6",
+    "no_of_blades": 6,
+    "ccm_status": "down",
+    "eac_status": "down",
+    "eas_switches": 2,
+    "nru_switches": 2
+  },
+  {
+    "slno": 7,
+    "name": "N7",
+    "no_of_blades": 11,
+    "ccm_status": "up",
+    "eac_status": "up",
+    "eas_switches": 8,
+    "nru_switches": 8
+  },
+  {
+    "slno": 8,
+    "name": "N8",
+    "no_of_blades": 11,
+    "ccm_status": "down",
+    "eac_status": "up",
+    "eas_switches": 7,
+    "nru_switches": 7
+  },
+  {
+    "slno": 9,
+    "name": "N9",
+    "no_of_blades": 4,
+    "ccm_status": "up",
+    "eac_status": "down",
+    "eas_switches": 2,
+    "nru_switches": 2
+  },
+  {
+    "slno": 10,
+    "name": "N10",
+    "no_of_blades": 5,
+    "ccm_status": "down",
+    "eac_status": "up",
+    "eas_switches": 4,
+    "nru_switches": 4
+  },
+  {
+    "slno": 11,
+    "name": "N11",
+    "no_of_blades": 10,
+    "ccm_status": "up",
+    "eac_status": "up",
+    "eas_switches": 4,
+    "nru_switches": 4
+  }
+]

@@ -72,6 +72,10 @@ class Erconn extends Component {
         <button onClick={this.resetHandler} value=" ">
           RESET
         </button>
+        &nbsp;
+        <a href=" " value={this.props.toggle}>
+          Close
+        </a>
         <br />
         <br />
         <br />
