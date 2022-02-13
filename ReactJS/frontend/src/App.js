@@ -2,7 +2,11 @@ import React, { Component } from "react";
 import "./App.css";
 import Erconn from "./Erconn";
 import * as ReactDOM from "react-dom";
+<<<<<<< HEAD
 import Split from "react-split";
+=======
+import SplitPane from "react-split-pane";
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
 
 class App extends Component {
   state = {
@@ -53,17 +57,22 @@ class App extends Component {
     const el = document.getElementById("bottom");
     ReactDOM.render(<Erconn data={a} />, el);
   };
+<<<<<<< HEAD
   toggle = async (e) => {
     e.preventDefault();
     console.log("toggle clicked");
   };
   render() {
+=======
+ render() {
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
     return (
       <div className="header">
         <header className="App-header">
           <h1 className="App-title">CHECK MK</h1>
         </header>
         <div className="App">
+<<<<<<< HEAD
           <Split
             // className="split"
             // // allowResize={false}
@@ -82,6 +91,27 @@ class App extends Component {
               <React.Fragment>
                 <nav className="nav" header="Null">
                   <h1 className="nodes">NODES DATA</h1>
+=======
+          <SplitPane
+            split="vertical"
+            minSize={250}
+            defaultSize={200}
+            maxSize={400}
+            type="Resizer"
+            attribute="vertical">
+            <div className="Node_link">
+              {this.state.data.map((value) => (
+                <>
+                  <a
+                    onClick={this.clickHandler}
+                    id={value}
+                    href={value}
+                  
+                    className="section-values"
+                  >
+                    {value}
+                  </a>
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
 
                   {this.state.data.map((value) => (
                     <>

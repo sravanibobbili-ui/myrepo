@@ -3,7 +3,10 @@ let fs = require("fs");
 var express = require("express");
 var app = express();
 var ap = express();
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
 function conn() {
   let connection = mysql.createConnection({
     connectionlimit: 10,
@@ -43,7 +46,11 @@ async function query(connection) {
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.json(val);
       console.log(val);
+<<<<<<< HEAD
     });
+=======
+     });
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
     ap.get("/api/getdata", function (re, resu, next) {
       resu.setHeader("Access-Control-Allow-Origin", "*");
       resu.json(rows);
@@ -51,7 +58,10 @@ async function query(connection) {
     });
   });
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
 app.listen(7890, function () {
   console.log("Connected to port 8900 at http://localhost");
 });
@@ -61,3 +71,7 @@ ap.listen(7891, function () {
 });
 let c = conn();
 let n = query(c);
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458

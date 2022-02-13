@@ -1,8 +1,13 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
+=======
+
+import App from "./App";
+import * as ReactDOM from "react-dom";
+>>>>>>> 7c4de8d1a0bde6aed37bf4ff72a4ddd78f540458
 class Erconn extends Component {
   resetHandler = (e) => {
     e.preventDefault();
-
     console.log("clicked");
     const el = document.getElementById("reset");
     el.value = "";
