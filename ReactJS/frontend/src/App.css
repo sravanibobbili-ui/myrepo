@@ -37,7 +37,7 @@
   }
 } */
 .comp {
-  background-color: rgb(255, 81, 0);
+  background-color: rgb(238, 234, 232);
   width: 100%;
   float: right;
   margin: 0 0 3em 0;
@@ -50,14 +50,14 @@
 .split-flex {
   display: inline;
   flex-direction: row;
-  background-color: rgb(47, 218, 118);
+  background-color: #111110;
   overflow-y: auto;
   width: (10, 100);
   /* max-width: 100%; */
 }
 
 .Node_link {
-  background-color: #ff00b3;
+  background-color: #131012;
   overflow-y: auto;
   width: 10%;
   max-width: 10%;
@@ -66,14 +66,14 @@
 .split-inline {
   display: inline;
   flex-direction: column;
-  background-color: #ca3636;
+  background-color: hsl(0, 58%, 50%);
   overflow-y: auto;
   width: 500;
   height: 500;
   max-width: 100%;
 }
 .switches {
-  background-color: rgb(0, 255, 64);
+  background-color: hsl(0, 8%, 91%);
   width: 100%;
   float: right;
   margin: 0 0 3em 0;

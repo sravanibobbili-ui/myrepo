@@ -60,6 +60,7 @@ class App extends Component {
 
     // console.log(e.target.id);
     e.preventDefault();
+
     console.log("clicked");
     let a = await this.display(e.target.id);
     // console.log(a);
