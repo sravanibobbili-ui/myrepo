@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 /NodeJS/node_modules
+/file1.js
 /.pnp
 .pnp.js
 
