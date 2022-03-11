@@ -3,14 +3,13 @@ let fs = require("fs");
 var express = require("express");
 var app = express();
 var ap = express();
-/*** implemnet below connect query as function calls */
+
 function conn() {
   let connection = mysql.createConnection({
     connectionlimit: 10,
     host: "localhost",
     user: "DBAdmin",
     password: "Test@12345",
-    // port: 3306,
     database: "test",
   });
   connection.connect(function (err) {
@@ -44,10 +43,7 @@ async function query(connection) {
       res.setHeader("Access-Control-Allow-Origin", "*");
       res.json(val);
       console.log(val);
-      // console.log(val2);
     });
-    //   });
-    // }
     ap.get("/api/getdata", function (re, resu, next) {
       resu.setHeader("Access-Control-Allow-Origin", "*");
       resu.json(rows);
@@ -56,13 +52,6 @@ async function query(connection) {
   });
 }
 
-// function closeConnection(connection) {
-//   connection.end(function (err) {
-//     if (err) return console.error("error:" + err.message);
-//     else return console.log("Connection is closed");
-//   });
-// }
-
 app.listen(7890, function () {
   console.log("Connected to port 8900 at http://localhost");
 });
@@ -70,8 +59,5 @@ app.listen(7890, function () {
 ap.listen(7891, function () {
   console.log("Connected to port 6700 at http://localhost");
 });
-
 let c = conn();
 let n = query(c);
-// closeConnection(c);
-//module.exports = { conn, query, closeConnection };

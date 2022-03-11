@@ -1,30 +1,5 @@
 import React, { Component } from "react";
-
-import App from "./App";
-import * as ReactDOM from "react-dom";
-// import { conndata } from "./NodeReact/NodeJS/data";
 class Erconn extends Component {
-  // constructor(props) {
-  //   super(props);
-  // }
-
-  state = {
-    b: [],
-    a: [],
-    // res: [],
-  };
-
-  async componentDidMount() {
-    //   // const response = await fetch("http://localhost:7891/api/getdata");
-    //   // const value = await response.json();
-    //   // if (response.status !== 200) {
-    //   //   throw Error(value.message);
-    //   // }
-    // this.setState({ data: value });
-    // console.log(this.state.data);
-    //   console.log("from ErConn");
-    // this.setState({ b: this.props.data });
-  }
   resetHandler = (e) => {
     e.preventDefault();
 
@@ -39,14 +14,7 @@ class Erconn extends Component {
     el3.value = "";
     const el4 = document.getElementById("reset4");
     el4.value = "";
-
-    // this.setState({ c: "" });
-    // const el = document.getElementById("root");
-    // console.log(el);
-    // ReactDOM.render(<App.js />, el);
   };
-  // console.log(this.props.data);
-
   render() {
     return (
       <div className="comp">
