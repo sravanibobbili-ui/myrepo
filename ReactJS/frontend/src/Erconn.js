@@ -28,6 +28,7 @@ class Erconn extends Component {
         />
         <br />
         <br />
+        <br />
         <label>CCM_status: </label>
         <input
           type="textarea"
@@ -35,6 +36,7 @@ class Erconn extends Component {
           value={this.props.data.ccm}
           id="reset1"
         />
+        <br />
         <br />
         <br />
         <label>EAC_status: </label>
@@ -46,31 +48,33 @@ class Erconn extends Component {
         />
         <br />
         <br />
-        <div className="switches" id="reset">
-          <label>Number_of_EAS_Switches: </label>
-          <input
-            type="textarea"
-            name="text"
-            value={this.props.data.eas}
-            id="reset3"
-          />
-          <br />
-          <br />
-          <label>Number_of_NRU_Switches: </label>
-          <input
-            type="textarea"
-            name="text"
-            value={this.props.data.nru}
-            id="reset4"
-          />
-          <br />
-          <br />
-          <button onClick={this.resetHandler} value=" ">
-            RESET
-          </button>
-          <br />
-          <br />
-        </div>
+        <br />
+        <label>Number_of_EAS_Switches: </label>
+        <input
+          type="textarea"
+          name="text"
+          value={this.props.data.eas}
+          id="reset3"
+        />
+        <br />
+        <br />
+        <br />
+        <label>Number_of_NRU_Switches: </label>
+        <input
+          type="textarea"
+          name="text"
+          value={this.props.data.nru}
+          id="reset4"
+        />
+        <br />
+        <br />
+        <br />
+        <button onClick={this.resetHandler} value=" ">
+          RESET
+        </button>
+        <br />
+        <br />
+        <br />
       </div>
     );
   }
